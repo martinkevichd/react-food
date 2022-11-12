@@ -1,0 +1,587 @@
+@media (max-width:1380px) {
+    .slider__btn{
+        top: 40%;
+    }
+}
+
+@media (max-width:1280px) {
+    .popup{
+        left:30%;
+    }
+    .slider__btn{
+        top: 35%;
+    }
+}
+
+@media (max-width:1152px) {
+    .popup{
+        left:30%;
+    }
+
+    .slider__btn.left {
+        left: 170px;
+    }
+    
+    .slider__btn.right {
+        right: 130px;
+    }
+
+    .home__about_us,
+    .home__menu {
+        gap:10%;
+    } 
+
+    .description__about_us {
+        margin-top: 15px;
+    } 
+}
+
+@media (max-height:1024px) {
+    .slider__btn{
+        top: 28%;
+    }
+}
+
+@media (max-height:800px) {
+    .slider__btn{
+        top: 38%;
+    }
+}
+
+@media (max-width:1120px) {
+    .slider__btn{
+        top: 35%;
+    }
+
+    .home__about_us,
+    .home__menu {
+        gap:8%;
+    } 
+}
+
+@media (max-width:1111px) {
+    .description__about_us {
+        margin-top: 15px;
+    }
+
+    .home__about_us,
+    .home__menu {
+        gap:5%;
+    }
+}
+
+@media (max-width:1111px) {
+    .about__content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about__img{
+        text-align: center;
+    }
+
+    .about__img2{
+        justify-content: center;
+        gap: 1%;
+    }
+
+    .about__description{
+        margin-top:40px;
+    }
+
+    .description__title{
+        text-align: center;
+    }
+}
+
+
+@media (max-width:800px), (max-height:600px) {
+    .popup{
+        width: 450px;
+        height: 500px;
+        left: 30%;
+        top: 10%;
+    }
+
+    .slider__btn{
+        top: 38%;
+    }
+
+    .slider__btn.left {
+        left: 120px;
+    }
+    
+    .slider__btn.right {
+        right: 80px;
+    }
+
+    .description__about_us {
+        margin-top: 15px;
+    }
+
+    .home__download__img img {
+        width: 200px;
+        height: 400px;
+    }
+
+    .home__about_us,
+    .home__menu {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .home__menu {
+        flex-direction: column-reverse;
+    }
+
+    .home__about_us__img, 
+    .home__menu__img,
+    .home__menu__description,
+    .home__about_us__description {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .download__btn {
+        gap: 2%;
+        margin-top: 30px;
+    }
+    .btn-apple,
+    .btn-google{
+        padding: 10px 20px 8px 30px ;
+    }
+
+    .services__item,
+    .card {
+    width: 48%;
+    margin-top: 35px;
+    border: 1px solid rgba(32, 29, 29, 0.548);
+    }
+
+    .popupCall{
+        width: 290px;
+        height: 180px;
+    }
+
+    .popupCall__content h2{
+        font-size: 22px;
+    }
+}
+
+@media (max-width:800px) {
+
+    .slider__btn.left {
+        left: 110px;
+    }
+    
+    .slider__btn.right {
+        right: 70px;
+    }
+    .home__download{
+        width: 100%;
+        display: flex;
+        height: auto;
+    }
+
+    .home__download__img img{
+        margin-right: 10px;
+    }
+
+}
+
+@media (max-width:640px),(max-height:480px) { 
+    .popup{
+        width: 40%;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        left: 30%;
+    }
+
+    .enter{
+        flex-direction: column;
+    }
+
+    .tooltip,
+    .tooltip-correct{
+        width: auto;
+        top: 8%;
+        font-size: 12px;
+        left: 2%;
+    }
+    .slider__btn{
+        top: 43%;
+    }
+
+    .slider__btn.left {
+        left: 90px;
+    }
+    
+    .slider__btn.right {
+        right: 50px;
+    }
+
+    .item__title{
+        text-align: center;
+    }
+
+    .download__btn {
+        gap: 2%;
+        margin-top: 20px;
+    }
+    .home__download__description {
+        width: 50%;
+    }
+    
+    .btn-apple,
+    .btn-google{
+        padding: 10px 8px 8px 30px ;
+    }
+
+    .about__img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about__img2{
+        gap: 2%;
+    }
+    .popupCall{
+        bottom: 18%;
+        right: 15%;
+    }
+
+}
+
+@media (max-width:620px) {
+    .nav__menu {
+        visibility: hidden;
+    }
+  
+    #menu__toggle:checked ~ #slider1_btn_left {
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    .menu__btn > span,
+    .menu__btn > span::before,
+    .menu__btn > span::after{
+        visibility: visible;
+    }
+    
+    #menu__toggle:checked ~ .menu__btn > span {
+        transform: rotate(45deg);
+    }
+    
+    #menu__toggle:checked ~ .menu__btn > span::before {
+        top: 0;
+        transform: rotate(0);
+    }
+    
+    #menu__toggle:checked ~ .menu__btn > span::after {
+        top: 0;
+        transform: rotate(90deg);
+    }
+    
+    #menu__toggle:checked ~ .menu__box {
+        visibility: visible;
+        left: 0;
+    }
+
+    .contacts__input input {
+        width: 400px;
+    }
+
+    .home__download__img img{
+       width: 150px;
+       height: 350px;
+    }
+}
+
+@media (max-width:600px) {
+    .download__btn {
+        gap: 2%;
+        margin-top: 10px;
+    }
+    
+    .home__download__description {
+        width: 52%;
+    }
+    
+    .btn-apple,
+    .btn-google{
+        padding: 10px 8px 8px 30px ;
+    }
+}
+
+@media (max-width:560px) {
+    .slider__btn{
+        top: 43%;
+    }
+
+    .slider__btn.left {
+        left: 80px;
+    }
+    
+    .slider__btn.right {
+        right: 40px;
+    }
+
+    .home__download__description {
+        width: 55%;
+    }
+    
+    .btn-apple,
+    .btn-google{
+        padding: 10px 8px 8px 30px ;
+    }
+
+    .about__img img{
+        width: 500px;
+    }
+
+    .about__img2 img{
+        width: 245px;
+    }
+
+    .contacts__input input {
+        width: 300px;
+    }
+}
+
+@media (max-width:520px) {
+    .home__download__description {
+        padding-left: 15px;
+        width: 60%;
+    }
+    
+    .btn-apple,
+    .btn-google{
+        padding: 10px 8px 8px 30px ;
+    }
+
+    .home__about_us__img img,
+    .home__menu__img img{
+        width: 400px;
+        height: 350px;
+    }
+
+    .home__about_us__description,
+    .home__menu__description {
+        width: 70%;
+    }
+
+    .home__download__img img{
+        right: 2px;
+    }
+}
+
+@media (max-width:500px)  {
+    .container {
+        width: 85%;
+    }
+
+    .slider__btn.left {
+        left: 40px;
+    }
+    
+    .slider__btn.right {
+        right: 10px;
+    }
+
+    .home__feature__container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .item__icon-delivery,
+    .item__icon-smile {
+        margin-top: 30px;
+    }
+
+    .about__img img{
+        width: 450px;
+    }
+
+    .about__img2 img{
+        width: 220px;
+    }
+
+    .card,
+    .services__item{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contacts__input input {
+        width: 300px;
+    }
+}
+
+@media (max-width:400px)  {
+    .slider__btn.left {
+        left: 20px;
+    }
+    
+    .slider__btn.right {
+        right: -20px;
+    }
+
+    .name-input,
+    .phone-input,
+    .date-input {
+        width: 90px;
+    }
+
+    .number-input{
+        width: 20px;
+    }
+
+    .home__feature__container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home__download__img {
+        display: none;
+    }
+
+    .popupCall{
+        width: 300px;
+        height: 200px;
+        bottom: 13%;
+    }
+    .call-icon{
+        right: 13%;
+    }
+
+    .about__img img{
+        width: 350px;
+    }
+
+    .about__img2 img{
+        width: 171px;
+    }
+
+    .home__download{
+        width: 100%;
+    }
+
+    .home__download__description {
+        width: 80%;
+    }
+  
+    .btn-apple,
+    .btn-google{
+        padding: 10px 8px 8px 30px ;
+    }
+
+    .home__about_us__img img,
+    .home__menu__img img{
+        width: 300px;
+        height: 250px;
+    }
+
+    .home__about_us__description,
+    .home__menu__description {
+        width: 80%;
+    }
+
+    .home__download__img img{
+        right: 2px;
+    }
+
+    .footer__info{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .footer__pages{
+        padding-left: 40px;
+    }
+
+    .card,
+    .services__item{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+   
+    .contacts__input{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contacts__input input {
+        width: 300px;
+    }
+
+    .btn__contacts {
+        margin-top: 10px;
+        width: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@media (max-width:320px){
+    .menu__box {
+        width: 250px;
+    }
+  
+    .home__download__description {
+        width: 100%;
+    }
+   
+    .download__btn{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .btn-apple,
+    .btn-google{
+        width: 130px;
+        margin-bottom: 10px;
+        padding: 10px 8px 8px 30px ;
+    }
+
+    .home__about_us__img img,
+    .home__menu__img img{
+        width: 300px;
+        height: 250px;
+    }
+
+    .home__download__img img{
+        width: 250px;
+    }
+
+    .popupCall{
+        width: 200px;
+        height: 270px;
+        bottom: 13%;
+        right: 30%;
+    }
+
+    .call-icon{
+        right: 28%;
+    }
+    .about__img img{
+        width: 300px;
+    }
+
+    .about__img2 img{
+        width: 147px;
+    }
+
+    .contacts__input input {
+        width: 250px;
+    }
+}
