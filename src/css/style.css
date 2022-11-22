@@ -730,6 +730,7 @@ textarea {
 }
 
 .card-link .btn, .card-price {
+    margin-left: 15px;
     position: absolute;
     bottom: 16px;
 }

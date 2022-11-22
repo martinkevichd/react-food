@@ -291,6 +291,7 @@
     #menu__toggle:checked ~ .menu__box {
         visibility: visible;
         left: 0;
+        z-index: 3;
     }
 
     .contacts__input input {
@@ -386,6 +387,11 @@
         width: 85%;
     }
 
+   
+    .nav__menu li {
+        padding: 0;
+    }
+
     .slider__btn.left {
         left: 40px;
     }
@@ -404,6 +410,26 @@
         margin-top: 30px;
     }
 
+    .home__about_us__img img,
+    .home__menu__img img{
+        width: 370px;
+        height: 350px;
+    }
+
+    .home__download__img {
+        display: none;
+    }
+
+    .footer__info{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .footer__pages{
+        padding-left: 40px;
+    }
+
     .about__img img{
         width: 450px;
     }
@@ -419,8 +445,20 @@
         margin-right: auto;
     }
 
+    .contacts__input{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
     .contacts__input input {
         width: 300px;
+        margin-bottom: 15px;
+    }
+    .btn__contacts {
+        margin-top: 10px;
+        width: 100px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -476,6 +514,8 @@
     .home__download__description {
         width: 80%;
     }
+
+    
   
     .btn-apple,
     .btn-google{
@@ -497,16 +537,7 @@
         right: 2px;
     }
 
-    .footer__info{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-
-    .footer__pages{
-        padding-left: 40px;
-    }
-
+   
     .card,
     .services__item{
         width: 80%;
@@ -523,12 +554,7 @@
         width: 300px;
     }
 
-    .btn__contacts {
-        margin-top: 10px;
-        width: 100px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+    
 
 }
 
@@ -555,7 +581,7 @@
 
     .home__about_us__img img,
     .home__menu__img img{
-        width: 300px;
+        width: 290px;
         height: 250px;
     }
 
